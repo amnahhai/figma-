@@ -1,0 +1,164 @@
+body{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+margin: auto;
+  background: url(BackgroundImage.jpeg);
+}
+
+.maincon {
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+}
+
+.nav{
+  position: absolute;
+width: 1024px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+}
+/* logo */
+
+.navlogo{
+  position: absolute;
+width: 166px;
+height: 38px;
+left: 80px;
+top: 41px;
+}
+
+
+.navtitles{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  left: 930px;
+  top: 23px;
+}
+.navtitles a{
+  font-family: 'Imprima', sans-serif;
+  text-decoration: none;
+  color: azure;
+}
+li{
+  margin-left:15px;
+  margin-right:15px;
+  list-style: none
+  
+}
+
+ul button{
+  border-radius:20px ;
+  border: none;
+  color:azure;
+  background-color: #0C1077;
+  width: 90px;
+  height: 30px;
+  font-family: 'Imprima', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+}
+
+/* Have a safe enjoyable flight with us! */
+.tcontainer{
+  position: absolute;
+  width: 750px;
+  height: 400px;
+left: 80px;
+top: 20px;
+}
+.tcontainer p{
+  
+  font-family: 'Cormorant Infant', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 115px;
+display: flex;
+align-items: center;
+color: #F5F5F5;
+}
+.cir1{
+  position: absolute;
+width: 50px;
+height: 50px;
+left: 20px;
+top: 350px;
+
+}
+.cir2{
+  position: absolute;
+width: 70px;
+height: 70px;
+left: 300px;
+top: 350px;
+}
+
+.cir1 li {
+margin-bottom: 20px;
+  list-style: none
+}
+.cir2 li {
+  margin-bottom: 20px;
+    list-style: none
+  }
+  .cir1 p {
+ color: #F5F5F5;
+ margin-left: 75px;
+ margin-top: -60px;
+ font-family: 'Cormorant Infant', serif;
+ font-size: 20px;
+ font-weight: 150px;
+    }
+    .cir2 p {
+      color: #F5F5F5;
+      margin-left: 75px;
+      margin-top: -60px;
+      font-family: 'Cormorant Infant', serif;
+      font-size: 20px;
+      font-weight: 150px;
+         }
+
+span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer{
+  width: 1183px;
+  height:246px;
+  background: rgba(12, 16, 119, 0.5);
+  position: relative;
+  left: 80px;
+  bottom: -500px;
+}
+
+.footer ul{
+    margin-left:15px;
+    margin-right:15px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+.footer h3{
+  color: #F5F5F5;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: bold;
+}
+.footer p{
+  color: #F5F5F5;
+  font-family: 'Cormorant Infant', serif;
+}
+
+.footer img{
+  margin-top: 15px;
+}
